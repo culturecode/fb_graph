@@ -10,6 +10,7 @@ module FbGraph
     include Connections::Friends
     include Connections::Groups
     include Connections::Home
+    include Connections::Inbox
     include Connections::Interests
     include Connections::Likes
     include Connections::Links
@@ -25,7 +26,6 @@ module FbGraph
     include Connections::Videos
     # --
     # TODO
-    # include Connections::Inbox
     # include Connections::Outbox
     # include Connections::Updates
     # ++
